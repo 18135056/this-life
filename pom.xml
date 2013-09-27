@@ -22,6 +22,16 @@
 			<version>${platform.version}</version>
 			<scope>provided</scope>
 		</dependency>
+		<dependency>
+			<groupId>com.baidu.mobads</groupId>
+			<artifactId>Baidu_MobAds_SDK</artifactId>
+			<version>3.2</version>
+		</dependency>
+		<dependency>
+			<groupId>com.youmi.android</groupId>
+			<artifactId>YoumiSdk</artifactId>
+			<version>v4.05_2013-09-11</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<finalName>${project.artifactId}</finalName>
@@ -43,7 +53,7 @@
 					<sdk>
 						<platform>16</platform>
 					</sdk>
-									</configuration>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
